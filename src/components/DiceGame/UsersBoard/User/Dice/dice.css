@@ -1,0 +1,42 @@
+.dice-board {
+  width: 100px;
+  height: 100px;
+  border: 1px sold #dedede;
+}
+
+.dice{
+  width: 50px;
+  height: 50px;
+  border: 1px solid #dedede;
+  box-shadow: 2px 2px 5px #dedede;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dot-back{
+  flex: 50%;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+  margin: auto;
+}
+.dice-back {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #f8f8f8;
+}
+
+.dice-anime {
+  animation-name: wtb;
+  animation-duration: .5s;
+}
+@keyframes wtb {
+  from {background-color: black;}
+  to {background-color: white;}
+}

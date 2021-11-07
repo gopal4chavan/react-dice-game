@@ -1,0 +1,37 @@
+.user {
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.actual-score{
+  text-align: center;
+  font-size: 80px;
+  font-weight: 100;
+  color: #EB4D4D;
+  padding-bottom: 20px;
+
+}
+
+.current-score{
+  border: 1px solid #dedede;
+  text-align: center;
+  margin: 20px 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.active {
+  background-color: #EB4D4D;
+  color: #fff;
+  border: none;
+}
+.label{
+  padding-bottom: 5px;
+}
